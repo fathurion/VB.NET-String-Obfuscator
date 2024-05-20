@@ -1,6 +1,7 @@
 VB.NET String Obfuscator
 
-Convert your secret string into an obfuscated code, using base64 and aes encryption with different password every char.
+Convert your secret string into an obfuscated code, using base64 and aes encryption with different password every char. its a bad obfuscation and need more improvement, lol.
+this obfuscation can easily be cracked by call the string using dnSpy, using external protectors is high recommended.
 
 For Example, input text : password
 then the obfuscated code look like this 
@@ -16,4 +17,4 @@ Dim wvvDkxWB As String = "6th5/scnPgoSAqafsluiEw=="
 Dim HvHZMOrv As String = "/O83bRG2B3TxU8mzLoc7wA=="
 Dim oRmKTYGc As String = "GVCtg/RMNvWAncTQKktftg=="
 
-Dim anKyupGs As String  = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(oRmKTYGc,"hEBQABHR"))) & System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(HvHZMOrv,"ZPLzJBZv"))) & System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(KHlmaeOp,"QsNfashT"))) & System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(FpfysxtG,"tIVZRfAX"))) & System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(wvvDkxWB,"RUOtrPNt"))) & System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(VlpOStRu,"WQAHFdiL"))) & System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(sceIBQtC,"yaqfmyZE"))) & System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(qREcHbro(UHCcMQPa,"DjoKkGrv"))) 
+Dim anKyupGs As String = 'Combination all strings with decode and decryptions.
