@@ -6,19 +6,3 @@ this obfuscation can easily be cracked by call the string using dnSpy, using ext
 ![image](https://github.com/fathurion/VB.NET-String-Obfuscator/assets/19814586/94f7e079-c088-462d-b744-02b1fba4874e)
 
 
-For Example, input text : "password"
-Then the obfuscated code look like this 
-
-'Call anKyupGs For Obfuscated Text
-
-Dim sceIBQtC As String = "roGqOjkYrdj5c5DmmwZKiQ=="
-Dim VlpOStRu As String = "Xp9A7tEn1VxFsY0HZskx6g=="
-Dim FpfysxtG As String = "ggOk6sWmUsMeqf1kXt/5YA=="
-Dim UHCcMQPa As String = "/H49mujb5n43ysGGD0YgNw=="
-Dim KHlmaeOp As String = "ptzUR9WQXLLEcBNLcPE6tQ=="
-Dim wvvDkxWB As String = "6th5/scnPgoSAqafsluiEw=="
-Dim HvHZMOrv As String = "/O83bRG2B3TxU8mzLoc7wA=="
-Dim oRmKTYGc As String = "GVCtg/RMNvWAncTQKktftg=="
-
-Dim anKyupGs As String = 'Combination all strings with decode and decryptions.
-
