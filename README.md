@@ -3,8 +3,8 @@ VB.NET String Obfuscator
 Convert your secret string into an obfuscated code, using base64 and aes encryption with different password every char. its a bad obfuscation and need more improvement, lol.
 this obfuscation can easily be cracked by call the string using dnSpy, using external protectors is high recommended.
 
-For Example, input text : password
-then the obfuscated code look like this 
+For Example, input text : "password"
+Then the obfuscated code look like this 
 
 'Call anKyupGs For Obfuscated Text
 
