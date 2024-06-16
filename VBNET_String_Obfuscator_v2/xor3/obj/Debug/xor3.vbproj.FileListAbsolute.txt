@@ -1,0 +1,10 @@
+D:\Visua Studio\xor3\xor3\bin\Debug\xor3.exe.config
+D:\Visua Studio\xor3\xor3\bin\Debug\xor3.exe
+D:\Visua Studio\xor3\xor3\bin\Debug\xor3.pdb
+D:\Visua Studio\xor3\xor3\bin\Debug\xor3.xml
+D:\Visua Studio\xor3\xor3\obj\Debug\xor3.Resources.resources
+D:\Visua Studio\xor3\xor3\obj\Debug\xor3.vbproj.GenerateResource.Cache
+D:\Visua Studio\xor3\xor3\obj\Debug\xor3.exe
+D:\Visua Studio\xor3\xor3\obj\Debug\xor3.xml
+D:\Visua Studio\xor3\xor3\obj\Debug\xor3.pdb
+D:\Visua Studio\xor3\xor3\obj\Debug\xor3.Form5.resources

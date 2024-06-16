@@ -1,0 +1,46 @@
+    Public Function ob1(ByVal ob2 As String, ByVal ob3 As String) As String
+        Dim ob4 As Byte() = Convert.FromBase64String(ob2)
+        Dim ob5() As Byte = System.Text.Encoding.UTF8.GetBytes(ob3)
+        Dim obhaha(ob4.Length - 1) As Byte
+        For i As Integer = 0 To ob4.Length - 1
+            obhaha(i) = ob4(i) Xor ob5(i Mod ob5.Length)
+        Next
+        Return System.Text.Encoding.UTF8.GetString(obhaha)
+    End Function
+
+    Public Function ob6(ByVal ob7 As String) As String
+        Dim ob8 As Byte() = Convert.FromBase64String(ob7)
+        Return System.Text.Encoding.UTF8.GetString(ob8)
+    End Function
+
+    Public Function ob9(ByVal ox1 As String, ByVal ox2 As String) As String
+        Dim ox3 As New Security.Cryptography.RijndaelManaged
+        Dim ox4 As New Security.Cryptography.SHA256Cng
+        Dim ox5 As String = ""
+        Dim ox6 As String = ""
+        Try
+            Dim ox7 = ox1.Split({"=="}, StringSplitOptions.None)
+            ox6 = ox7(0) & "=="
+            ox1 = If(ox7.Length = 3, ox7(1) & "==", ox7(1))
+            ox3.Key = ox4.ComputeHash(System.Text.ASCIIEncoding.ASCII.GetBytes(ox2))
+            ox3.IV = Convert.FromBase64String(ox6)
+            ox3.Mode = Security.Cryptography.CipherMode.CBC
+            Dim ox8 As Security.Cryptography.ICryptoTransform = ox3.CreateDecryptor
+            Dim ox9 As Byte() = Convert.FromBase64String(ox1)
+            ox5 = System.Text.ASCIIEncoding.ASCII.GetString(ox8.TransformFinalBlock(ox9, 0, ox9.Length))
+            Return ox5
+        Catch ex As Exception
+            Return ex.Message
+        End Try
+    End Function
+
+    Public Function oy1(oy2 As String) As String
+        Dim oy3 As String = ""
+        For oy4 As Integer = 0 To oy2.Length - 1 Step 8
+            Dim oy5 As String = oy2.Substring(oy4, 8)
+            Dim oy6 As Integer = Convert.ToInt32(oy5, 2)
+            Dim oy7 As Char = Chr(oy6)
+            oy3 &= oy7
+        Next
+        Return oy3
+    End Function

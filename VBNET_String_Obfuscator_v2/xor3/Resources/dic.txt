@@ -1,0 +1,7 @@
+Module qq1 
+
+' =====================================================
+' VB.NET String Obfuscator v2 by Fathurion
+' https://github.com/fathurion/VB.NET-String-Obfuscator
+' =====================================================
+' Obfuscated string dictonary:

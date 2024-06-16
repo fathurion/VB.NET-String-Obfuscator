@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+xor3
+</name>
+</assembly>
+<members>
+<member name="P:xor3.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:xor3.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:xor3.My.Resources.Resources.dic">
+	<summary>
+  Looks up a localized string similar to Module qq1 
+
+' =====================================================
+' VB.NET String Obfuscator v2 by Fathurion
+' https://github.com/fathurion/VB.NET-String-Obfuscator
+' =====================================================
+' Obfuscated string dictonary:
+.
+</summary>
+</member><member name="P:xor3.My.Resources.Resources.plains">
+	<summary>
+  Looks up a localized string similar to     Public Function ob1(ByVal ob2 As String, ByVal ob3 As String) As String
+        Dim ob4 As Byte() = Convert.FromBase64String(ob2)
+        Dim ob5() As Byte = System.Text.Encoding.UTF8.GetBytes(ob3)
+        Dim obhaha(ob4.Length - 1) As Byte
+        For i As Integer = 0 To ob4.Length - 1
+            obhaha(i) = ob4(i) Xor ob5(i Mod ob5.Length)
+        Next
+        Return System.Text.Encoding.UTF8.GetString(obhaha)
+    End Function
+
+    Public Function ob6(ByVal ob7 As String) As String
+        [rest of string was truncated]";.
+</summary>
+</member><member name="T:xor3.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
